@@ -1,0 +1,37 @@
+int main()
+{
+	int i=0;
+	int j=12;
+
+	
+		j = 32*12;
+		switch(j)
+		{
+		case 1: i=9;
+		case 2:i=8; break;
+		default:j=0;		
+		}
+	
+}
+
+IC
+
+int i = 0 
+int j = 12 
+t1 = 32 * 12 
+j = t1 
+if j == 1 
+goto L3
+L2: 
+i = 9 
+L3: 
+if j == 2 
+goto L5
+L4: 
+i = 8 
+goto L1 
+L5: 
+j = 0 
+L1: 
+
+Success

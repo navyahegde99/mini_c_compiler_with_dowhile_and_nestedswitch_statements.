@@ -1,0 +1,11 @@
+a = 10
+b = 64
+L1:
+b = 0
+L2:
+v = 0
+if a goto L2
+t0 = a + 1
+a = t0
+if 1 goto L1
+Parsing done
